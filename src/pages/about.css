@@ -1,0 +1,10 @@
+.about h1{
+    color: black;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.about .main-image{
+    width: 15%;
+    height: 15%;
+}
