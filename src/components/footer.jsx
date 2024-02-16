@@ -5,7 +5,7 @@ function Footer(){
 
     return(
         <div className="footer">
-            <h1>Footer Goes Here</h1>
+            <h1>The amazing page to turn your dreams come true</h1>
         </div>
     );
 }
