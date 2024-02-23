@@ -5,7 +5,8 @@ function Footer(){
 
     return(
         <div className="footer">
-            <h1>The amazing page to turn your dreams come true</h1>
+            <h6>Thank your for visiting Irma's Closet</h6>
+            
         </div>
     );
 }

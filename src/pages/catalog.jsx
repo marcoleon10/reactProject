@@ -23,11 +23,11 @@ function Catalog() {
   }
 
   return (
-    <div>
+    <div className="catalog">
       <h1>Look my {productState.length} new awesome product</h1>
       <h5>Page Status: {status}</h5>
-      {productState.map((p) => (
-        <Product data={p} />
+      {productState.map((productArrow) => (
+        <Product key={productArrow._id} />
       ))}
     </div>
   );

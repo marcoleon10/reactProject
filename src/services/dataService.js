@@ -72,6 +72,14 @@ class DataService{
         
     }
 
+    removeItem(prodId) {
+        /**
+         * get the cart
+         * find and remove the product with _id= prodId
+         * save the cart
+         */
+      }
+
 }
 
 export default DataService;

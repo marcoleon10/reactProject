@@ -8,6 +8,7 @@ import "bootstrap/dist/js/bootstrap.min.js"
 import Home from "./pages/home.jsx";
 import About from "./pages/about.jsx";
 import Admin from "./pages/admin.jsx";
+import Cart from "./pages/cart.jsx";
 
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="/catalog" element={<Catalog />} />
             <Route path="/about" element={<About />} />
             <Route path="/admin" element={<Admin />} />
+            <Route path="/cart" element={<Cart />} />
         </Routes>
       <Footer />
     </div>

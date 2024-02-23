@@ -6,8 +6,22 @@ import {Link} from "react-router-dom"; //All the "<a>" tags will have to replace
 //Here goes the logic
 function Navbar() {
   return (
-    <div>
-        <h2>Here goes the navbar - ON CONSTRUCTION</h2>
+    <div className="">
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/catalog">Catalog</Link>
+        </li>
+        <li>
+          <Link to="/cart">Cart</Link>
+        </li>
+        <li>
+          <Link to="/footer">Contact</Link>
+        </li>
+      </ul>
+        
     </div>
   );
 }

@@ -3,6 +3,7 @@ import "./products.css";
 import QuantityPicker from "./quantityPicker.jsx";
 import { useEffect, useState } from "react";
 
+
 //logic
 function Product(props) {
     const [quantity,setQuantity] = useState(1);
