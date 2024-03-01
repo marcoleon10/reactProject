@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-color: #F2F6D0;
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  
 }
 
 .App-logo {
@@ -36,4 +38,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@font-face{
+  font-family: InstSerifRegular;
+  src: url(../public/InstrumentSerif-Regular.ttf);
+}
+.instSerifRegular{
+  font-family: InstSerifRegular;
+}
+
+@font-face{
+  font-family: InstSerifItalic;
+  src: url(../public/InstrumentSerif-Italic.ttf);
+}
+.instSerifItalic{
+  font-family: InstSerifItalic;
+}
+
+@font-face{
+  font-family: PTSerifCaptionRegular;
+  src: url(../public/PTSerifCaption-Regular.ttf);
+}
+.ptSerifCaptionRegular{
+  font-family: PTSerifCaptionRegular;
+}
+
+@font-face{
+  font-family: PTSerifCaptionItalic;
+  src: url(../public/PTSerifCaption-Italic.ttf);
+}
+.ptSerifCaptionItalic{
+  font-family: PTSerifCaptionItalic;
+}
+
+@font-face{
+  font-family: DMSerifDisplayRegular;
+  src: url(../public/DMSerifDisplay-Regular.ttf);
+}
+.dmSerifDisplayRegular{
+  font-family: DMSerifDisplayRegular;
+}
+
+@font-face{
+  font-family: DMSerifDisplayItalic;
+  src: url(../public/DMSerifDisplay-Italic.ttf);
+}
+.dmSerifDisplayItalic{
+  font-family: DMSerifDisplayItalic;
+}
+
+@font-face{
+  font-family: PlayfairDisplayRegular;
+  src: url(../public/PlayfairDisplay-Regular.ttf);
+}
+.playfairDisplayRegular{
+  font-family: PlayfairDisplayRegular;
 }

@@ -1,14 +1,16 @@
 import "./home.css";
+import Navbar from "../components/navbar";
+import { useState, useEffect } from 'react';
 
 function Home(){
+
+    
     return (
         <div className="home">
-            <h1>WELCOME</h1>
-            <img className="main-image" src="/images/speaker.jpeg" alt="Speaker" />
-        </div>
+            <Navbar></Navbar>
+            <img className="main-image" src="/images/presentation2.jpg" alt="Speaker" />
 
-        
-        
+        </div>        
     )
 }
 

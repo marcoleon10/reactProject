@@ -1,0 +1,77 @@
+/* navbar.css */
+
+/* Estilos para el contenedor principal del Navbar */
+.nav {
+    width: 100%;
+    height: 65px; /* Ajusta la altura según sea necesario */
+    position: fixed;
+    
+  }
+  
+  /* Estilos para el Navbar */
+  
+
+  /* Estilos para el botón del Navbar Toggler */
+  .navbar-toggler {
+    border: none; /* Elimina el borde del botón */
+  }
+
+  .nav .btn-outline{
+    margin-left: -50px  ;
+  }
+  
+  /* Estilos para el icono del Navbar Toggler */
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.55)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); /* Icono personalizado para el Navbar Toggler */
+  }
+  
+  /* Estilos para el contenedor de la barra de búsqueda y el botón de búsqueda */
+  .nav .d-flex {
+    margin-left: auto; /* Alinea el contenedor a la derecha */
+  }
+
+  .nav .d-flex input{
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  
+  /* Estilos para el campo de búsqueda */
+  .nav .form-control {
+    width: 200px; /* Ancho del campo de búsqueda */
+  }
+  
+  /* Estilos para el botón de búsqueda */
+  .btn-outline-success {
+    margin-left: 10px; /* Espacio entre el campo de búsqueda y el botón de búsqueda */
+  }
+  
+  /* Estilos para la marca del Navbar (logo) */
+  .navbar-brand {
+    flex: 5;
+    margin-left: 220px;
+    color: white;  
+    margin-top: 5px; 
+  }
+  
+  
+  /* Estilos para los elementos de la lista del Navbar */
+  .navbar-nav .nav-item {
+    margin-left: 100px; /* Espacio entre los elementos de la lista */
+  }
+
+  .navbar-nav .nav-item .nav-link{
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  
+  /* Estilos para los enlaces del Navbar */
+  .navbar-nav .nav-link {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+  }
+  
+  /* Estilos para los enlaces activos del Navbar */
+  .navbar-nav .nav-link.active {
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
+  }
+  

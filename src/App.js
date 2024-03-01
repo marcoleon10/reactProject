@@ -10,24 +10,19 @@ import About from "./pages/about.jsx";
 import Admin from "./pages/admin.jsx";
 import Cart from "./pages/cart.jsx";
 
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+
 
 function App() {
   return (
-    <BrowserRouter>
+    
     <div className = "App">
-      <h1>React App</h1>
-      <Navbar />
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/catalog" element={<Catalog />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/admin" element={<Admin />} />
-            <Route path="/cart" element={<Cart />} />
-        </Routes>
-      <Footer />
+      <div id="home"><Home /></div>
+      <div id="catalog"><Catalog /></div>
+      <div id="about"><About /></div>
+      <div id="cart"><Cart /></div>
+       
     </div>
-    </BrowserRouter>
+    
     
   );
 }
